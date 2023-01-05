@@ -1,5 +1,5 @@
 html {
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .banner {
@@ -103,9 +103,57 @@ html {
     background-color: #DDD;
     float: left;
     text-align: center;
-    line-height: 150px;
+    /* line-height: 150px; */
     padding: 20px;
     box-sizing: border-box;
 }
 
+.service-title p {
+    padding-top: 35px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 18px;
+}
 
+.service-description {
+    width: 80%;
+    float: left;
+    padding:30px;
+    box-sizing: border-box;
+    /* font-family: Helvetica, sans-serif; */
+}
+
+.service-description h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.service-description p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#management-box {
+    background-color: #2364AA;
+}
+
+#dev-box {
+    background-color: #3DA5D9;
+}
+
+#design-box {
+    background-color: #73BFB8;
+}
+
+#management-title {
+    color: #2364AA;
+}
+
+#dev-title {
+    color: #3DA5D9;
+}
+
+#design-title {
+    color: #2364AA;
+}
